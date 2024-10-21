@@ -1,0 +1,18 @@
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reviewItems {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff0000;
+  height: 50%;
+}
+.authorName {
+  font-size: 48px;
+  justify-self: flex-end;
+  height: 50%;
+}

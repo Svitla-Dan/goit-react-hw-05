@@ -1,0 +1,148 @@
+.movieContainer {
+  padding: 0 32px;
+  margin-top: 20px;
+}
+
+.goBackLink {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: background 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.goBackLink:hover,
+.goBackLink:focus {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.filmInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.filmPoster {
+  width: 300px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  padding: 0;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .filmInfo {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.poster {
+  object-fit: cover;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.noPoster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  padding: 0;
+  background-color: #c0c0c0;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.noPosterText {
+  transform: rotate(-57deg);
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.filmDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+  gap: 24px;
+  flex-basis: calc(100% - 324px);
+}
+
+.filmTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.userScore {
+  font-style: italic;
+  color: #ffdd57;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  color: #b4a1fa;
+}
+
+.filmOverview {
+  font-size: 18px;
+  margin-bottom: 48px;
+  color: #dcdcdc;
+}
+
+.genresList {
+  display: flex;
+  gap: 12px;
+}
+
+.genresList li {
+  background-color: #2c2c2c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.additionalInfo {
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  text-align: left;
+  padding: 16px 32px;
+  margin-bottom: 24px;
+}
+
+.additionalInfo > ul {
+  font-size: 24px;
+  margin-top: 16px;
+  list-style: disc;
+  padding-left: 48px;
+}
+
+.additionalInfoLink {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000808;
+  transition: color 0.3s ease;
+}
+
+.additionalInfoLink:hover,
+.additionalInfoLink:focus {
+  color: #029696;
+  text-decoration: underline;
+}

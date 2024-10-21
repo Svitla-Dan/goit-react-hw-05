@@ -1,0 +1,30 @@
+.posterImage {
+  object-fit: cover;
+  width: 300px;
+  height: 450px;
+}
+
+.noPosterWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  background-color: #c0c0c0;
+}
+
+.noPosterText {
+  transform: rotate(-55deg);
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.filmTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1a0303;
+}

@@ -1,14 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 16px;
 
   color: #0a0a0a;
-  background-image: url("/night-sky-min.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background: linear-gradient(to right, #4e0172, #018a6c);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -52,45 +52,8 @@ img {
   height: auto;
 }
 
-button {
-  border-radius: 8px;
-  border: none;
-  padding: 8px 16px;
-  font-weight: 500;
-  font-family: inherit;
-  height: 36px;
-  color: #fafafa;
-  background-color: #3368f1;
-  cursor: pointer;
-  outline: none;
-  transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
-}
-
-button:hover,
-button:focus {
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  background-color: #0a3dca;
-}
-
-input {
-  border-radius: 8px;
-  border: 1px solid #0a0a0a;
-  padding: 8px 16px;
-  font-size: 16px;
-  font-family: inherit;
-  height: 36px;
-  background-color: transparent;
-  transition: box-shadow 0.25s ease-in-out;
-  outline: none;
-}
-
-input:hover,
-input:focus {
-  box-shadow: 0px 5px 10px 0px rgba(10, 61, 202, 0.9);
-}
-
 #root {
-  max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   text-align: center;
 }
